@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AreaOfRectangle</title>
+  </head>
+  <body>
+    <h1>calculate rectangle area</h1>
+    <form action="#" name="my form">
+      <label for=""> lenght of rectangle = </label
+      ><input type="text" name="Data1" />
+      <label for="">width of rectangle = </label
+      ><input type="text" name="Data2" />
+      <button type="button" onclick="AreaOfRectangle()">Calculate Area</button>
+    </form>
+     <script>
+      function AreaOfRectangle() {
+        var length = document.myForm.Data1.value;
+        var width = document.myForm.Data2.value;
+        var result = length * width;
+        alert("Area of Rectangle = " + result);
+      }
+    </script>
+
+  
+  </body>
+</html>
